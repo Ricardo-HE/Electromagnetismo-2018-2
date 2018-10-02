@@ -1,5 +1,5 @@
 # Para jalar los datos de un archivo
-ile = open("Datos.txt")
+file = open("Datos.txt")
 noCargas = parse(Int,readline(file))
 
 cargas = Array{Float64}(undef, noCargas)
